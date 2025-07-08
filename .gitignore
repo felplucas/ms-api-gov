@@ -1,0 +1,24 @@
+# Ignorar o arquivo .env para proteger informações sensíveis
+.env
+
+# Ignorar arquivos e pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar ambientes virtuais
+venv/
+
+# Ignorar configurações específicas do IDE
+.vscode/
+.idea/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de cache
+*.cache
+*.egg-info/
+dist/
+build/
